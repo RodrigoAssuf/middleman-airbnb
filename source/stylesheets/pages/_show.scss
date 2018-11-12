@@ -1,0 +1,25 @@
+.flat-profile {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flat-profile h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.flat-profile p {
+  font-size: 25px;
+  // font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.4)
+}
